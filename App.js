@@ -25,7 +25,7 @@ function App() {
           <Routes>
           {/* <Route path='/task1' element={<List1 taskdata = {["HTML","CSS","Bootstrap","JavaScript"]}/>}/>
               <Route path='/task2' element={<List2/>}/> */}
-              <Route path='/task3' element={<NumberState/>}/>
+              <Route path='/task3' element={<NumberState/>}/>          
           </Routes>
       </BrowserRouter>
     </div>
