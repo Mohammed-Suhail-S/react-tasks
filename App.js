@@ -6,8 +6,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // import ClassProps from "./react/ClassProps";
 // import ListPoints from "./react/ListPoints";
 
-import List1 from "./task/List1";
-import List2 from "./task/List2";
+// import List1 from "./task/List1";
+// import List2 from "./task/List2";
+import NumberState from "./task/NumberState";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
           </Routes> */}
 
           <Routes>
-              <Route path='/task1' element={<List1 taskdata = {["HTML","CSS","Bootstrap","JavaScript"]}/>}/>
-              <Route path='/task2' element={<List2/>}/>
+          {/* <Route path='/task1' element={<List1 taskdata = {["HTML","CSS","Bootstrap","JavaScript"]}/>}/>
+              <Route path='/task2' element={<List2/>}/> */}
+              <Route path='/task3' element={<NumberState/>}/>
           </Routes>
       </BrowserRouter>
     </div>
